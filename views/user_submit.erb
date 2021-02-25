@@ -1,0 +1,12 @@
+<h2> Please enter a phrase to Pig-Latinize </h2>
+<form method="POST" action="/piglatinize">
+    <div>
+        <textarea name="user_text"></textarea>
+    </div>
+    <input type="submit" value="Submit">
+</form>
+
+<div>
+    <h2>Pig Latin</h2>
+    <p><%= @pig_latin_text%></p>
+</div>
